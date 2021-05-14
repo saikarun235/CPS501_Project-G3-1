@@ -1,0 +1,295 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0" prefWidth="750.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <GridPane layoutX="40.0" layoutY="134.0" prefHeight="336.0" prefWidth="426.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+          <RowConstraints maxHeight="30.0" minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+
+         <children>
+
+             <TextField fx:id="zero" editable="false" onMouseClicked="#zero" style="-fx-border-color: black;" />
+             <TextField fx:id="one" editable="false" onMouseClicked="#one" style="-fx-border-color: black;" GridPane.columnIndex="1" />
+             <TextField fx:id="two" editable="false" onMouseClicked="#two" style="-fx-border-color: black;" GridPane.columnIndex="2" />
+             <TextField fx:id="three" editable="false" onMouseClicked="#three" style="-fx-border-color: black;" GridPane.columnIndex="3" />
+             <TextField fx:id="four" editable="false" onMouseClicked="#four" style="-fx-border-color: black;" GridPane.columnIndex="4" />
+             <TextField fx:id="five" editable="false" onMouseClicked="#five" style="-fx-border-color: black;" GridPane.columnIndex="5" />
+             <TextField fx:id="six" editable="false" onMouseClicked="#six" style="-fx-border-color: black;" GridPane.columnIndex="6" />
+             <TextField fx:id="seven" editable="false" onMouseClicked="#seven" style="-fx-border-color: black;" GridPane.columnIndex="7" />
+             <TextField fx:id="eight" editable="false" onMouseClicked="#eight" style="-fx-border-color: black;" GridPane.columnIndex="8" />
+             <TextField fx:id="nine" editable="false" onMouseClicked="#nine" style="-fx-border-color: black;" GridPane.columnIndex="9" />
+             <TextField fx:id="ten" editable="false" onMouseClicked="#ten" style="-fx-border-color: black;" GridPane.columnIndex="10" />
+             <TextField fx:id="eleven" editable="false" onMouseClicked="#eleven" style="-fx-border-color: black;" GridPane.columnIndex="11" />
+             <TextField fx:id="twelve" editable="false" onMouseClicked="#twelve" style="-fx-border-color: black;" GridPane.columnIndex="12" />
+             <TextField fx:id="thirteen" editable="false" onMouseClicked="#thirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" />
+             <TextField fx:id="fourteen" editable="false" onMouseClicked="#fourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" />
+
+             <TextField fx:id="ozero" editable="false" onMouseClicked="#ozero" style="-fx-border-color: black;" GridPane.rowIndex="1" />
+             <TextField fx:id="oone" editable="false" onMouseClicked="#oone" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="1" />
+             <TextField fx:id="otwo" editable="false" onMouseClicked="#otwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="1" />
+             <TextField fx:id="othree" editable="false" onMouseClicked="#othree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="1" />
+             <TextField fx:id="ofour" editable="false" onMouseClicked="#ofour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="1" />
+             <TextField fx:id="ofive" editable="false" onMouseClicked="#ofive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="1" />
+             <TextField fx:id="osix" editable="false" onMouseClicked="#osix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="1" />
+             <TextField fx:id="oseven" editable="false" onMouseClicked="#oseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="1" />
+             <TextField fx:id="oeight" editable="false" onMouseClicked="#oeight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="1" />
+             <TextField fx:id="onine" editable="false" onMouseClicked="#onine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="1" />
+             <TextField fx:id="oten" editable="false" onMouseClicked="#oten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="1" />
+             <TextField fx:id="oeleven" editable="false" onMouseClicked="#oeleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="1" />
+             <TextField fx:id="otwelve" editable="false" onMouseClicked="#otwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="1" />
+             <TextField fx:id="othirteen" editable="false" onMouseClicked="#othirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="1" />
+             <TextField fx:id="ofourteen" editable="false" onMouseClicked="#ofourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="1" />
+
+
+             <TextField fx:id="tzero" editable="false" onMouseClicked="#tzero" style="-fx-border-color: black;" GridPane.rowIndex="2" />
+             <TextField fx:id="tone" editable="false" onMouseClicked="#tone" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+             <TextField fx:id="ttwo" editable="false" onMouseClicked="#ttwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="2" />
+             <TextField fx:id="tthree" editable="false" onMouseClicked="#tthree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="2" />
+             <TextField fx:id="tfour" editable="false" onMouseClicked="#tfour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="2" />
+             <TextField fx:id="tfive" editable="false" onMouseClicked="#tfive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="2" />
+             <TextField fx:id="tsix" editable="false" onMouseClicked="#tsix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="2" />
+             <TextField fx:id="tseven" editable="false" onMouseClicked="#tseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="2" />
+             <TextField fx:id="teight" editable="false" onMouseClicked="#teight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="2" />
+             <TextField fx:id="tnine" editable="false" onMouseClicked="#tnine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="2" />
+             <TextField fx:id="tten" editable="false" onMouseClicked="#tten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="2" />
+             <TextField fx:id="televen" editable="false" onMouseClicked="#televen" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="2" />
+             <TextField fx:id="ttwelve" editable="false" onMouseClicked="#ttwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="2" />
+             <TextField fx:id="tthirteen" editable="false" onMouseClicked="#tthirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="2" />
+             <TextField fx:id="tfourteen" editable="false" onMouseClicked="#tfourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="2" />
+
+             <TextField fx:id="thzero" editable="false" onMouseClicked="#thzero" style="-fx-border-color: black;" GridPane.rowIndex="3" />
+             <TextField fx:id="thone" editable="false" onMouseClicked="#thone" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+             <TextField fx:id="thtwo" editable="false" onMouseClicked="#thtwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="3" />
+             <TextField fx:id="ththree" editable="false" onMouseClicked="#ththree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="3" />
+             <TextField fx:id="thfour" editable="false" onMouseClicked="#thfour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="3" />
+             <TextField fx:id="thfive" editable="false" onMouseClicked="#thfive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="3" />
+             <TextField fx:id="thsix" editable="false" onMouseClicked="#thsix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="3" />
+             <TextField fx:id="thseven" editable="false" onMouseClicked="#thseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="3" />
+             <TextField fx:id="theight" editable="false" onMouseClicked="#theight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="3" />
+             <TextField fx:id="thnine" editable="false" onMouseClicked="#thnine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="3" />
+             <TextField fx:id="thten" editable="false" onMouseClicked="#thten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="3" />
+             <TextField fx:id="theleven" editable="false" onMouseClicked="#theleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="3" />
+             <TextField fx:id="thtwelve" editable="false" onMouseClicked="#thtwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="3" />
+             <TextField fx:id="ththirteen" editable="false" onMouseClicked="#ththirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="3" />
+             <TextField fx:id="thfourteen" editable="false" onMouseClicked="#thfourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="3" />
+
+             <TextField fx:id="fzero" editable="false" onMouseClicked="#fzero" style="-fx-border-color: black;" GridPane.rowIndex="4" />
+             <TextField fx:id="fone" editable="false" onMouseClicked="#fone" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+             <TextField fx:id="ftwo" editable="false" onMouseClicked="#ftwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="4" />
+             <TextField fx:id="fthree" editable="false" onMouseClicked="#fthree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="4" />
+             <TextField fx:id="ffour" editable="false" onMouseClicked="#ffour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="4" />
+             <TextField fx:id="ffive" editable="false" onMouseClicked="#ffive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="4" />
+             <TextField fx:id="fsix" editable="false" onMouseClicked="#fsix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="4" />
+             <TextField fx:id="fseven" editable="false" onMouseClicked="#fseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="4" />
+             <TextField fx:id="feight" editable="false" onMouseClicked="#feight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="4" />
+             <TextField fx:id="fnine" editable="false" onMouseClicked="#fnine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="4" />
+             <TextField fx:id="ften" editable="false" onMouseClicked="#ften" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="4" />
+             <TextField fx:id="feleven" editable="false" onMouseClicked="#feleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="4" />
+             <TextField fx:id="ftwelve" editable="false" onMouseClicked="#ftwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="4" />
+             <TextField fx:id="fthirteen" editable="false" onMouseClicked="#fthirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="4" />
+             <TextField fx:id="ffourteen" editable="false" onMouseClicked="#ffourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="4" />
+
+             <TextField fx:id="fizero" editable="false" onMouseClicked="#fizero" style="-fx-border-color: black;" GridPane.rowIndex="5" />
+             <TextField fx:id="fione" editable="false" onMouseClicked="#fione" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+             <TextField fx:id="fitwo" editable="false" onMouseClicked="#fitwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="5" />
+             <TextField fx:id="fithree" editable="false" onMouseClicked="#fithree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="5" />
+             <TextField fx:id="fifour" editable="false" onMouseClicked="#fifour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="5" />
+             <TextField fx:id="fifive" editable="false" onMouseClicked="#fifive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="5" />
+             <TextField fx:id="fisix" editable="false" onMouseClicked="#fisix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="5" />
+             <TextField fx:id="fiseven" editable="false" onMouseClicked="#fiseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="5" />
+             <TextField fx:id="fieight" editable="false" onMouseClicked="#fieight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="5" />
+             <TextField fx:id="finine" editable="false" onMouseClicked="#finine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="5" />
+             <TextField fx:id="fiten" editable="false" onMouseClicked="#fiten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="5" />
+             <TextField fx:id="fieleven" editable="false" onMouseClicked="#fieleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="5" />
+             <TextField fx:id="fitwelve" editable="false" onMouseClicked="#fitwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="5" />
+             <TextField fx:id="fithirteen" editable="false" onMouseClicked="#fithirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="5" />
+             <TextField fx:id="fifourteen" editable="false" onMouseClicked="#fifourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="5" />
+
+             <TextField fx:id="szero" editable="false" onMouseClicked="#szero" style="-fx-border-color: black;" GridPane.rowIndex="6" />
+             <TextField fx:id="sone" editable="false" onMouseClicked="#sone" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+             <TextField fx:id="stwo" editable="false" onMouseClicked="#stwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="6" />
+             <TextField fx:id="sthree" editable="false" onMouseClicked="#sthree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="6" />
+             <TextField fx:id="sfour" editable="false" onMouseClicked="#sfour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="6" />
+             <TextField fx:id="sfive" editable="false" onMouseClicked="#sfive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="6" />
+             <TextField fx:id="ssix" editable="false" onMouseClicked="#ssix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="6" />
+             <TextField fx:id="sseven" editable="false" onMouseClicked="#sseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="6" />
+             <TextField fx:id="seight" editable="false" onMouseClicked="#seight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="6" />
+             <TextField fx:id="snine" editable="false" onMouseClicked="#snine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="6" />
+             <TextField fx:id="sten" editable="false" onMouseClicked="#sten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="6" />
+             <TextField fx:id="seleven" editable="false" onMouseClicked="#seleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="6" />
+             <TextField fx:id="stwelve" editable="false" onMouseClicked="#stwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="6" />
+             <TextField fx:id="sthirteen" editable="false" onMouseClicked="#sthirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="6" />
+             <TextField fx:id="sfourteen" editable="false" onMouseClicked="#sfourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="6" />
+
+             <TextField fx:id="sezero" editable="false" onMouseClicked="#sezero" style="-fx-border-color: black;" GridPane.rowIndex="7" />
+             <TextField fx:id="seone" editable="false" onMouseClicked="#seone" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="7" />
+             <TextField fx:id="setwo" editable="false" onMouseClicked="#setwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="7" />
+             <TextField fx:id="sethree" editable="false" onMouseClicked="#sethree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="7" />
+             <TextField fx:id="sefour" editable="false" onMouseClicked="#sefour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="7" />
+             <TextField fx:id="sefive" editable="false" onMouseClicked="#sefive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="7" />
+             <TextField fx:id="sesix" editable="false" onMouseClicked="#sesix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="7" />
+             <TextField fx:id="seseven" editable="false" onMouseClicked="#seseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="7" />
+             <TextField fx:id="seeight" editable="false" onMouseClicked="#seeight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="7" />
+             <TextField fx:id="senine" editable="false" onMouseClicked="#senine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="7" />
+             <TextField fx:id="seten" editable="false" onMouseClicked="#seten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="7" />
+             <TextField fx:id="seeleven" editable="false" onMouseClicked="#seeleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="7" />
+             <TextField fx:id="setwelve" editable="false" onMouseClicked="#setwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="7" />
+             <TextField fx:id="sethirteen" editable="false" onMouseClicked="#sethirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="7" />
+             <TextField fx:id="sefourteen" editable="false" onMouseClicked="#sefourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="7" />
+
+             <TextField fx:id="ezero" editable="false" onMouseClicked="#ezero" style="-fx-border-color: black;" GridPane.rowIndex="8" />
+             <TextField fx:id="eone" editable="false" onMouseClicked="#eone" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="8" />
+             <TextField fx:id="etwo" editable="false" onMouseClicked="#etwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="8" />
+             <TextField fx:id="ethree" editable="false" onMouseClicked="#ethree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="8" />
+             <TextField fx:id="efour" editable="false" onMouseClicked="#efour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="8" />
+             <TextField fx:id="efive" editable="false" onMouseClicked="#efive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="8" />
+             <TextField fx:id="esix" editable="false" onMouseClicked="#esix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="8" />
+             <TextField fx:id="eseven" editable="false" onMouseClicked="#eseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="8" />
+             <TextField fx:id="eeight" editable="false" onMouseClicked="#eeight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="8" />
+             <TextField fx:id="enine" editable="false" onMouseClicked="#enine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="8" />
+             <TextField fx:id="eten" editable="false" onMouseClicked="#eten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="8" />
+             <TextField fx:id="eeleven" editable="false" onMouseClicked="#eeleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="8" />
+             <TextField fx:id="etwelve" editable="false" onMouseClicked="#etwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="8" />
+             <TextField fx:id="ethirteen" editable="false" onMouseClicked="#ethirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="8" />
+             <TextField fx:id="efourteen" editable="false" onMouseClicked="#efourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="8" />
+
+             <TextField fx:id="nzero" editable="false" onMouseClicked="#nzero" style="-fx-border-color: black;" GridPane.rowIndex="9" />
+             <TextField fx:id="none" editable="false" onMouseClicked="#none" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="9" />
+             <TextField fx:id="ntwo" editable="false" onMouseClicked="#ntwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="9" />
+             <TextField fx:id="nthree" editable="false" onMouseClicked="#nthree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="9" />
+             <TextField fx:id="nfour" editable="false" onMouseClicked="#nfour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="9" />
+             <TextField fx:id="nfive" editable="false" onMouseClicked="#nfive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="9" />
+             <TextField fx:id="nsix" editable="false" onMouseClicked="#nsix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="9" />
+             <TextField fx:id="nseven" editable="false" onMouseClicked="#nseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="9" />
+             <TextField fx:id="neight" editable="false" onMouseClicked="#neight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="9" />
+             <TextField fx:id="nnine" editable="false" onMouseClicked="#nnine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="9" />
+             <TextField fx:id="nten" editable="false" onMouseClicked="#nten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="9" />
+             <TextField fx:id="neleven" editable="false" onMouseClicked="#neleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="9" />
+             <TextField fx:id="ntwelve" editable="false" onMouseClicked="#ntwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="9" />
+             <TextField fx:id="nthirteen" editable="false" onMouseClicked="#nthirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="9" />
+             <TextField fx:id="nfourteen" editable="false" onMouseClicked="#nfourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="9" />
+
+             <TextField fx:id="tezero" editable="false" onMouseClicked="#tezero" style="-fx-border-color: black;" GridPane.rowIndex="10" />
+             <TextField fx:id="teone" editable="false" onMouseClicked="#teone" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="10" />
+             <TextField fx:id="tetwo" editable="false" onMouseClicked="#tetwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="10" />
+             <TextField fx:id="tethree" editable="false" onMouseClicked="#tethree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="10" />
+             <TextField fx:id="tefour" editable="false" onMouseClicked="#tefour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="10" />
+             <TextField fx:id="tefive" editable="false" onMouseClicked="#tefive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="10" />
+             <TextField fx:id="tesix" editable="false" onMouseClicked="#tesix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="10" />
+             <TextField fx:id="teseven" editable="false" onMouseClicked="#teseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="10" />
+             <TextField fx:id="teeight" editable="false" onMouseClicked="#teeight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="10" />
+             <TextField fx:id="tenine" editable="false" onMouseClicked="#tenine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="10" />
+             <TextField fx:id="teten" editable="false" onMouseClicked="#teten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="10" />
+             <TextField fx:id="teeleven" editable="false" onMouseClicked="#teeleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="10" />
+             <TextField fx:id="tetwelve" editable="false" onMouseClicked="#tetwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="10" />
+             <TextField fx:id="tethirteen" editable="false" onMouseClicked="#tethirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="10" />
+             <TextField fx:id="tefourteen" editable="false" onMouseClicked="#tefourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="10" />
+
+             <TextField fx:id="elzero" editable="false" onMouseClicked="#elzero" style="-fx-border-color: black;" GridPane.rowIndex="11" />
+             <TextField fx:id="elone" editable="false" onMouseClicked="#elone" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="11" />
+             <TextField fx:id="eltwo" editable="false" onMouseClicked="#eltwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="11" />
+             <TextField fx:id="elthree" editable="false" onMouseClicked="#elthree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="11" />
+             <TextField fx:id="elfour" editable="false" onMouseClicked="#elfour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="11" />
+             <TextField fx:id="elfive" editable="false" onMouseClicked="#elfive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="11" />
+             <TextField fx:id="elsix" editable="false" onMouseClicked="#elsix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="11" />
+             <TextField fx:id="elseven" editable="false" onMouseClicked="#elseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="11" />
+             <TextField fx:id="eleight" editable="false" onMouseClicked="#eleight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="11" />
+             <TextField fx:id="elnine" editable="false" onMouseClicked="#elnine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="11" />
+             <TextField fx:id="elten" editable="false" onMouseClicked="#elten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="11" />
+             <TextField fx:id="eleleven" editable="false" onMouseClicked="#eleleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="11" />
+             <TextField fx:id="eltwelve" editable="false" onMouseClicked="#eltwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="11" />
+             <TextField fx:id="elthirteen" editable="false" onMouseClicked="#elthirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="11" />
+             <TextField fx:id="elfourteen" editable="false" onMouseClicked="#elfourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="11" />
+
+             <TextField fx:id="twzero" editable="false" onMouseClicked="#twzero" style="-fx-border-color: black;" GridPane.rowIndex="12" />
+             <TextField fx:id="twone" editable="false" onMouseClicked="#twone" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="12" />
+             <TextField fx:id="twtwo" editable="false" onMouseClicked="#twtwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="12" />
+             <TextField fx:id="twthree" editable="false" onMouseClicked="#twthree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="12" />
+             <TextField fx:id="twfour" editable="false" onMouseClicked="#twfour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="12" />
+             <TextField fx:id="twfive" editable="false" onMouseClicked="#twfive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="12" />
+             <TextField fx:id="twsix" editable="false" onMouseClicked="#twsix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="12" />
+             <TextField fx:id="twseven" editable="false" onMouseClicked="#twseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="12" />
+             <TextField fx:id="tweight" editable="false" onMouseClicked="#tweight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="12" />
+             <TextField fx:id="twnine" editable="false" onMouseClicked="#twnine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="12" />
+             <TextField fx:id="twten" editable="false" onMouseClicked="#twten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="12" />
+             <TextField fx:id="tweleven" editable="false" onMouseClicked="#tweleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="12" />
+             <TextField fx:id="twtwelve" editable="false" onMouseClicked="#twtwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="12" />
+             <TextField fx:id="twthirteen" editable="false" onMouseClicked="#twthirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="12" />
+             <TextField fx:id="twfourteen" editable="false" onMouseClicked="#twfourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="12" />
+
+             <TextField fx:id="thizero" editable="false" onMouseClicked="#thizero" style="-fx-border-color: black;" GridPane.rowIndex="13" />
+             <TextField fx:id="thione" editable="false" onMouseClicked="#thione" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="13" />
+             <TextField fx:id="thitwo" editable="false" onMouseClicked="#thitwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="13" />
+             <TextField fx:id="thithree" editable="false" onMouseClicked="#thithree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="13" />
+             <TextField fx:id="thifour" editable="false" onMouseClicked="#thifour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="13" />
+             <TextField fx:id="thifive" editable="false" onMouseClicked="#thifive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="13" />
+             <TextField fx:id="thisix" editable="false" onMouseClicked="#thisix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="13" />
+             <TextField fx:id="thiseven" editable="false" onMouseClicked="#thiseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="13" />
+             <TextField fx:id="thieight" editable="false" onMouseClicked="#thieight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="13" />
+             <TextField fx:id="thinine" editable="false" onMouseClicked="#thinine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="13" />
+             <TextField fx:id="thiten" editable="false" onMouseClicked="#thiten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="13" />
+             <TextField fx:id="thieleven" editable="false" onMouseClicked="#thieleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="13" />
+             <TextField fx:id="thitwelve" editable="false" onMouseClicked="#thitwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="13" />
+             <TextField fx:id="thithirteen" editable="false" onMouseClicked="#thithirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="13" />
+             <TextField fx:id="thifourteen" editable="false" onMouseClicked="#thifourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="13" />
+
+             <TextField fx:id="fozero" editable="false" onMouseClicked="#fozero" style="-fx-border-color: black;" GridPane.rowIndex="14" />
+             <TextField fx:id="foone" editable="false" onMouseClicked="#foone" style="-fx-border-color: black;" GridPane.columnIndex="1" GridPane.rowIndex="14" />
+             <TextField fx:id="fotwo" editable="false" onMouseClicked="#fotwo" style="-fx-border-color: black;" GridPane.columnIndex="2" GridPane.rowIndex="14" />
+             <TextField fx:id="fothree" editable="false" onMouseClicked="#fothree" style="-fx-border-color: black;" GridPane.columnIndex="3" GridPane.rowIndex="14" />
+             <TextField fx:id="fofour" editable="false" onMouseClicked="#fofour" style="-fx-border-color: black;" GridPane.columnIndex="4" GridPane.rowIndex="14" />
+             <TextField fx:id="fofive" editable="false" onMouseClicked="#fofive" style="-fx-border-color: black;" GridPane.columnIndex="5" GridPane.rowIndex="14" />
+             <TextField fx:id="fosix" editable="false" onMouseClicked="#fosix" style="-fx-border-color: black;" GridPane.columnIndex="6" GridPane.rowIndex="14" />
+             <TextField fx:id="foseven" editable="false" onMouseClicked="#foseven" style="-fx-border-color: black;" GridPane.columnIndex="7" GridPane.rowIndex="14" />
+             <TextField fx:id="foeight" editable="false" onMouseClicked="#foeight" style="-fx-border-color: black;" GridPane.columnIndex="8" GridPane.rowIndex="14" />
+             <TextField fx:id="fonine" editable="false" onMouseClicked="#fonine" style="-fx-border-color: black;" GridPane.columnIndex="9" GridPane.rowIndex="14" />
+             <TextField fx:id="foten" editable="false" onMouseClicked="#foten" style="-fx-border-color: black;" GridPane.columnIndex="10" GridPane.rowIndex="14" />
+             <TextField fx:id="foeleven" editable="false" onMouseClicked="#foeleven" style="-fx-border-color: black;" GridPane.columnIndex="11" GridPane.rowIndex="14" />
+             <TextField fx:id="fotwelve" editable="false" onMouseClicked="#fotwelve" style="-fx-border-color: black;" GridPane.columnIndex="12" GridPane.rowIndex="14" />
+             <TextField fx:id="fothirteen" editable="false" onMouseClicked="#fothirteen" style="-fx-border-color: black;" GridPane.columnIndex="13" GridPane.rowIndex="14" />
+             <TextField fx:id="fofourteen" editable="false" onMouseClicked="#fofourteen" style="-fx-border-color: black;" GridPane.columnIndex="14" GridPane.rowIndex="14" />
+
+         </children>
+      </GridPane>
+      <TextField fx:id="x" editable="false" layoutX="525.0" layoutY="121.0" />
+      <TextField fx:id="o" editable="false" layoutX="525.0" layoutY="148.0" />
+      <TextField fx:id="d" editable="false" layoutX="525.0" layoutY="175.0" />
+      <Button layoutX="525.0" layoutY="411.0" mnemonicParsing="false" onMouseClicked="#reset" prefHeight="27.0" prefWidth="56.0" text="Reset" />
+      <Button layoutX="631.0" layoutY="411.0" onMouseClicked="#quit" mnemonicParsing="false" prefHeight="27.0" prefWidth="62.0" text="Quit" />
+   </children>
+</AnchorPane>
